@@ -1,0 +1,216 @@
+* { margin:0px; padding:0px;  }
+ul,li{list-style:none;}
+img {border:0;}
+var, em {font-style:normal}
+p {color:#999999}
+label {cursor:pointer}
+html, body, input, select {
+    color: #666666;
+    font-family: arial,"宋体","微软雅黑";
+    font-size: 12px;
+}
+.clr {clear:both}
+a {color:#65778A}
+body {background:url("../images/bg.png")/*tpa=http://www.rong360.com/static/img/app/bg.png*/;}
+
+.clearfix:after{content:".";display:block;overflow:hidden;height:0;clear:both;visibility:hidden;}
+.clearfix{display:inline-block;}
+* html .clearfix{height:1%;}
+.clearfix{display:block;}
+
+.fl{float: left;}
+.fr{float: right;}
+
+#wrapper {width:540px;margin:0 auto}
+#header {background:url("../images/head-bg.png")/*tpa=http://www.rong360.com/static/img/app/head-bg.png*/;height:44px}
+#header .menu {float:left;padding:13px 0 0 8px}
+#header .menu li {float:left;width:82px;height:20px;color:#FFF;padding:8px 0 0 20px;font-size:13px;font-weight:bold;*padding-top:8px;*height:20px;cursor:pointer}
+#header .menu li.here {background:url("../images/menu-here.png")/*tpa=http://www.rong360.com/static/img/app/menu-here.png*/}
+#header .title {float:right;;padding:13px 13px 0 0;}
+#header .esf-title {float:left;;padding:13px 13px 0 7px;}
+#main {width:520px;padding-left:10px;position:relative}
+#main .title {background:url("../images/main-header.png")/*tpa=http://www.rong360.com/static/img/app/main-header.png*/;height:14px}
+#main .body {background:url("../images/main-bg.png")/*tpa=http://www.rong360.com/static/img/app/main-bg.png*/;}
+#main .body .in-form {width:350px;padding:10px 0 0 15px}
+#main .body .in-form td {padding-left:5px;height:38px}
+#main .body .other-link {
+    background: url("block-bg.png")/*tpa=http://www.rong360.com/static/img/app/block-bg.png*/ no-repeat scroll 0 10px transparent;
+    height: 155px;
+    left: 366px;
+    padding-left: 17px;
+    padding-top: 30px;
+    position: absolute;
+    top: 10px;
+    width: 146px;
+    z-index: 1;
+}
+#main .body .other-link h3 {font-size:14px;font-weight:bold;line-height:30px}
+#main .body .other-link li {background:url("../images/li-dot.png")/*tpa=http://www.rong360.com/static/img/app/li-dot.png*/ no-repeat scroll 0 6px;*background:url("../images/li-dot.png")/*tpa=http://www.rong360.com/static/img/app/li-dot.png*/ no-repeat scroll 0 3px;padding-left:15px;height:22px}
+#main .body .other-link a {text-decoration:none}
+#main .body .other-link a:hover {text-decoration:underline}
+
+.yt-text {
+    background: url("select-gradient-bg.png")/*tpa=http://www.rong360.com/static/assets/select-gradient-bg.png*/ repeat-x scroll 0 0 #F1F1F1;
+    border: 1px solid #D6D6D6;
+    color: #666666;
+    cursor: pointer;
+    overflow: hidden;
+    padding-left: 8px;
+    position: relative;
+}
+.yt-list {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CACDD4;
+    box-shadow: 0 1px 3px #ECECEC;
+    position: absolute;
+    z-index: 11;
+}
+.yt-list div {
+    clear: both;
+    padding: 0 10px;
+}
+.yt-list div:hover {
+    background: none repeat scroll 0 0 #F4F4F4;
+    line-height: 25px;
+    overflow: hidden;
+}
+.list-div-hover {
+    background: none repeat scroll 0 0 #F4F4F4;
+    line-height: 25px;
+    overflow: hidden;
+}
+.list-div-out {
+    background: none repeat scroll 0 0 #FFFFFF;
+    line-height: 25px;
+    overflow: hidden;
+}
+.i-down-img {
+    position: absolute;
+    right: 11px;
+    z-index: 5;
+}
+.sel {position:relative;}
+.inpt {
+    background: url("input-bg.png")/*tpa=http://www.rong360.com/static/assets/input-bg.png*/ repeat-x scroll 0 0 #FFFFFF;
+    border: 1px solid #D6D6D6;
+    height: 25px;
+    width: 86px;
+    line-height: 25px;
+    padding-left: 8px;
+    z-index: 2;
+}
+.btn {width:85px;height:30px;box-shadow:0 1px 3px #ECECEC;cursor:pointer}
+.cal-btn{background:#5385E0;border:1px solid #2D53AF;color:#FFF;margin-right:10px}
+.reset-btn{background:#F6F6F6;border:1px solid #CBCBCB;color:#333;}
+
+#result {margin:0 15px;border-top:1px dashed #DDE3E8;position:relative;margin-top:15px}
+#result .tbl {width:230px;border:solid #EBEBEB; border-width:1px 0px 0px 1px;}
+#result .tbl td {border:solid #EBEBEB; border-width:0px 1px 1px 0px;height:25px}
+#result .tbl .td1 {width:90px;background:#F8F8F8;padding-left:10px}
+#result .tbl .td2 {background:#FFFFFF;padding-right:5px;text-align:right;color:#CCCCCC}
+#result .tbl .td3 {background:#FFFFFF;padding-left:5px;text-align:left;color:#999999;line-height:20px;height:40px}
+#result td {line-height:30px}
+#result td em {color:#FF6633;font-weight:bold}
+#result td var {color:#333333;}
+#result td b {font-weight:normal}
+#result td span {font-weight:bold}
+
+.info {float:left;margin-top:8px;*margin-top:0}
+.help {position:absolute;margin-top:9px;*margin-top:-1px;margin-left:3px;cursor:pointer}
+
+.div2, .div1_2, .div2_2, .div3 {display:none}
+
+#dkqx_sel_1, #sfbl_sel_1, #sfbl_sel_2, #dkqx_sel_3 {z-index:14}
+#dkqx_sel_1, #dkqx_sel_2, #dklv_sel_3 {z-index:13}
+#dklv_sel_1 {z-index:12}
+
+#dklv_type .yt-text {border:0;background:url("../images/main-bg.png")/*tpa=http://www.rong360.com/static/img/app/main-bg.png*/;padding:0;}
+
+.tsk {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-shadow: 0 1px 5px #DDDDDD;
+    line-height: 20px;
+    padding: 7px;
+    position: absolute;
+    display:none;
+    z-index: 10000;
+}
+.tsk .jt {position:absolute;top:-7px}
+.tsk .close {float:right;cursor:pointer}
+.tsk .nr {padding:10px 0 5px 0}
+
+.err {
+    display: block;
+    position: absolute;
+    z-index: 5000;
+}
+
+.err .arr{
+  background: url("error-left-arrow.png")/*tpa=http://www.rong360.com/static/assets/error-left-arrow.png*/ no-repeat;
+  width: 7px;
+  height: 28px;
+  position: absolute;
+  left: -6px;
+}
+.err .con{
+  float: left;
+  color: #666;
+  background: #FFFDF5 url("error-auction.png")/*tpa=http://www.rong360.com/static/assets/error-auction.png*/ no-repeat 3px 5px;
+  padding-left: 25px;
+  padding-top: 5px;
+  line-height:16px;
+  border: 1px solid #CACACA;
+  height: 20px;
+  padding-right: 10px;
+}
+
+#citysel {cursor:pointer}
+#citylist {width:426px;position:absolute;z-index:6000;background:#FFFFFF;border:1px solid #999999;top:113px;display:none;padding:0}
+#citylist .bt {background:#EDEDED;height:25px;border-bottom:1px solid #D1D1D1;padding:5px 0 0 20px}
+#citylist .lb {padding-left:20px;float:left}
+#citylist .close {padding:10px;position:absolute;left:392px}
+#citylist dl {float:left;padding:10px 0}
+#citylist dt {font-weight:bold}
+#citylist li {float:left;width:45px;color:#0055bb;cursor:pointer}
+
+#result .r_result {
+    margin-top:10px;
+    border:1px solid #DDDDDD;
+    overflow: hidden;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+#result .r_title {background:#F5F6F8;padding:10px 0;cursor:pointer;width:100%}
+#result .r_title span {padding:0 30px 0 10px ;font-weight:bold;width:90px;}
+#result .r_title em {color:#FF6633}
+#result .r_title .tjt, #result .r_title .tjt1 {
+    float:right;
+    padding:5px 20px 0 0;
+    *margin-top:-15px
+}
+#result .r_body {display:none;background:#FFFFFF}
+#result .r_body table {border:0;border-top:1px solid #DDDDDD;width:488px}
+#result .r_body td {background:#FFFFFF;border-left:0;padding:0 10px;}
+#result .r_body .ltd {border-right:0;text-align:center}
+#result .r_body .ltd input {width:70px;text-align:right;padding-right:2px}
+#result .r_body .lhtd {border-bottom:0}
+#result .r_body .inpt {height:22px;line-height:22px}
+#result .pllist li {float:left;width:100px;line-height:22px}
+#result .pflist li {float:left;width:60px;*width:55px;line-height:22px}
+#result .bxlx ul {
+    float:left;
+    margin:10px 0 10px 81px;
+    *margin-left:40px;
+    border:1px solid #DDDDDD;
+    overflow: hidden;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+#result .bxlx li {float:left;width:100px;line-height:30px;height:30px;cursor:pointer}
+#result .bxlx li.on {background:#EEEEEE;box-shadow: 1px 1px 4px #DDDDDD;}
+#r_loan {display:none;margin-top:10px}
+#r_loan .r_body td {padding:0}
+#r_loan .r_body .td1 {border-left:1px solid #DDDDDD}

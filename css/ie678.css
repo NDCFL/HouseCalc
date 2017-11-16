@@ -1,0 +1,42 @@
+.navi ul,.desc .info_right h2,.desc .info_right .tel,.desc2 .info_center .tel,.grid h1,.box-1 .notice .l2,.box-1 .notice .l5,.box-2 .item .h,#header .nav ul li,.d-i-n-line,.navigation,.desc2 .info_center2 h3,.detail .txt,.box-1 h2,.box-1 .notice .l1,.box-1 .notice .l3,.dialog .h .t,.base-info h3,.save-info-title,.register-title,.index-main-title,.d-i-n b,.result-title {font-family: "微软雅黑","黑体","宋体",arial;}
+.navi ul, #header .nav ul li,.navigation,.w-s-btns .btn,.search_btn{font-size: 14px;font-family: "微软雅黑","宋体",arial;}
+.navigation-blur{line-height: 48px;}
+.mediary-name{padding-bottom: 4px;}
+.base-info .box-t2 h3{font-family: "宋体",arial;}
+.ie-blank{height:0; overflow:hidden;}
+div.comments-form{right: 40px;}
+div.input-err{position:static;}
+.a-m-l{position: relative;}
+.input-err var{display:inline-block;line-height: 14px;}
+.input-err em, .a-m-block{zoom:1}
+.comments-form-content p{margin: 0;}
+#dyw-wcn{_width:560px;}
+.filter, .filter-content{position:static;}
+
+#fixedTitle {
+	*width:926px !important;
+
+	left:auto;
+	position: absolute;
+}
+
+/*
+#filter-selectro {
+	*position: static !important;
+	_position: static !important;
+	*margin-bottom: 5px !important;
+	_margin-bottom: 5px !important;
+}
+*/
+
+#moreCondition .items {
+	_width:650px !important;
+}
+
+.hsl_c_btn_c {	
+	_background:url("images/blue_arrow_ie.png")/*tpa=http://www.rong360.com/static/img/blue_arrow_ie.png*/ no-repeat 55px -20px !important;
+}
+
+#title_debj {
+	_margin-right:25px;
+}
